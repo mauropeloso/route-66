@@ -1,4 +1,14 @@
 ---
 label: test
 hide_body: true
-fields: []
+fields:
+- name: lorem_ipsum
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: LOREM IPSUM
+  description: LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM
