@@ -12,3 +12,5 @@ fields:
       format: markdown
   label: LOREM IPSUM
   description: LOREM IPSUM LOREM IPSUM LOREM IPSUM LOREM IPSUM
+pages:
+- content/testtest.md
