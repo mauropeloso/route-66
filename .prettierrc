@@ -1,0 +1,39 @@
+{
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": true,
+    "jsxSingleQuote": true,
+    "printWidth": 120,
+    "proseWrap": "preserve",
+    "requirePragma": false,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "useTabs": false,
+    "overrides": [
+        {
+            "files": "*.js|*.jsx",
+            "options": {
+                "parser": "babylon"
+            }
+        },
+        {
+            "files": ".prettierrc|*.json",
+            "options": {
+                "parser": "json",
+                "singleQuote": false,
+                "semi": false
+            }
+        },
+        {
+            "files": "*.scss",
+            "options": {
+                "parser": "scss",
+                "singleQuote": false
+            }
+        }
+    ]
+}
